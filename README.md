@@ -53,17 +53,45 @@ Botões / Campos / Menus
 Python
 ```
 
+
 ```mermaid
 flowchart LR
 
-    subgraph A["Programa tradicional"]
-        A1["Usuário"] --> A2["Terminal"] --> A3["Python"]
+    subgraph GUI["Programa com GUI"]
+        direction TB
+
+        G1["Usuário"]
+        G2["Janela"]
+        G3["Botões / Campos / Menus"]
+        G4["Python"]
+
+        G1 --> G2
+        G2 --> G3
+        G3 --> G4
     end
 
-    subgraph B["Programa com GUI"]
-        B1["Usuário"] --> B2["Janela"] --> B3["Botões / Campos / Menus"] --> B4["Python"]
+    subgraph CLI["Programa tradicional"]
+        direction TB
+
+        C1["Usuário"]
+        C2["Terminal"]
+        C3["Python"]
+
+        C1 --> C2
+        C2 --> C3
     end
 
+    style GUI fill:#ffffff,stroke:#dddddd,stroke-width:1px
+    style CLI fill:#ffffff,stroke:#dddddd,stroke-width:1px
+
+    style G1 fill:#e3f2fd,stroke:#c5d9e8,stroke-width:1px
+    style G2 fill:#e3f2fd,stroke:#c5d9e8,stroke-width:1px
+    style G3 fill:#e3f2fd,stroke:#c5d9e8,stroke-width:1px
+    style G4 fill:#e3f2fd,stroke:#c5d9e8,stroke-width:1px
+
+    style C1 fill:#e3f2fd,stroke:#c5d9e8,stroke-width:1px
+    style C2 fill:#e3f2fd,stroke:#c5d9e8,stroke-width:1px
+    style C3 fill:#e3f2fd,stroke:#c5d9e8,stroke-width:1px
 ---
 
 # 2. O que é Tkinter?

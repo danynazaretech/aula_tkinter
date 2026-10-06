@@ -53,6 +53,22 @@ Botões / Campos / Menus
 Python
 ```
 
+```
+flowchart TD
+
+    subgraph Tradicional["Programa tradicional"]
+        A["Usuário"] --> B["Terminal"]
+        B --> C["Python"]
+    end
+
+    subgraph GUI["Programa com GUI"]
+        D["Usuário"]
+        D --> E["Janela"]
+        E --> F["Botões / Campos / Menus"]
+        F --> G["Python"]
+    end
+```
+
 ---
 
 # 2. O que é Tkinter?

@@ -53,21 +53,16 @@ Botões / Campos / Menus
 Python
 ```
 
-```
-flowchart TD
+```mermaid
+flowchart LR
 
-    subgraph Tradicional["Programa tradicional"]
-        A["Usuário"] --> B["Terminal"]
-        B --> C["Python"]
+    subgraph A["Programa tradicional"]
+        A1["Usuário"] --> A2["Terminal"] --> A3["Python"]
     end
 
-    subgraph GUI["Programa com GUI"]
-        D["Usuário"]
-        D --> E["Janela"]
-        E --> F["Botões / Campos / Menus"]
-        F --> G["Python"]
+    subgraph B["Programa com GUI"]
+        B1["Usuário"] --> B2["Janela"] --> B3["Botões / Campos / Menus"] --> B4["Python"]
     end
-```
 
 ---
 

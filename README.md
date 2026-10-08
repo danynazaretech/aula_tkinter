@@ -149,6 +149,8 @@ Podemos pensar em uma aplicação Tkinter como uma árvore de componentes.
 
 ---
 
+
+
 # 4. Primeiro programa Tkinter
 
 Vamos começar pelo menor programa possível.

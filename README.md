@@ -92,6 +92,8 @@ flowchart LR
     style C1 fill:#e3f2fd,stroke:#c5d9e8,stroke-width:1px
     style C2 fill:#e3f2fd,stroke:#c5d9e8,stroke-width:1px
     style C3 fill:#e3f2fd,stroke:#c5d9e8,stroke-width:1px
+```
+
 ---
 
 # 2. O que é Tkinter?
